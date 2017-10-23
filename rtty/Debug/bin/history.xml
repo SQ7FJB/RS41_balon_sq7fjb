@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=rtty.map -O3 --gc-sections --specs=nano.specs -lstdc++ -LC:\CooCox\CoIDE\configuration\ProgramData\rtty -TC:\CooCox\CoIDE\configuration\ProgramData\rtty/arm-gcc-link.ld -g">
+      <target file="rtty.elf" lastModified="15ebf90e1b9">
+         <source file="..\obj\delay.o" lastModified="15e06431b4e"/>
+         <source file="..\obj\stm32f10x_tim.o" lastModified="15e06431e35"/>
+         <source file="..\obj\fun.o" lastModified="15e064320ec"/>
+         <source file="..\obj\startup_stm32f10x_md_vl.o" lastModified="15e064321fa"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="15e064322d1"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="15e0643239a"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="15e064324fd"/>
+         <source file="..\obj\main.o" lastModified="15ebf90d45e"/>
+         <source file="..\obj\ublox.o" lastModified="15e064329f2"/>
+         <source file="..\obj\init.o" lastModified="15ebf90d659"/>
+         <source file="..\obj\aprs.o" lastModified="15ebf90d8fb"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="15e06433221"/>
+         <source file="..\obj\radio.o" lastModified="15ebf90db07"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="15e064334bb"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="15e06433603"/>
+         <source file="..\obj\f_rtty.o" lastModified="15ebf90dc0c"/>
+         <source file="..\obj\syscalls.o" lastModified="15e0643379f"/>
+         <source file="..\obj\stm32f10x_flash.o" lastModified="15e06433a0e"/>
+         <source file="..\obj\stm32f10x_dma.o" lastModified="15e06433b27"/>
+         <source file="..\obj\misc.o" lastModified="15e0643412a"/>
+         <source file="..\obj\stm32f10x_spi.o" lastModified="15e06434280"/>
+         <source file="..\obj\QAPRSBase.o" lastModified="15ebf90de91"/>
+      </target>
+   </processor>
+</history>

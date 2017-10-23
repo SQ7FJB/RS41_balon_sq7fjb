@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O3 -c -DSTM32F100C8T6B -DSTM32F10X_MD_VL -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DSUPPORT_CPLUSPLUS -DSTM32F100C8 -IF:\Hams\sondy\soft_pbl\STM32_RTTY-APRS_Popawiony_RWU_object\cmsis -IF:\Hams\sondy\soft_pbl\STM32_RTTY-APRS_Popawiony_RWU_object\stm_lib -IF:\Hams\sondy\soft_pbl -IF:\Hams\sondy\soft_pbl\STM32_RTTY-APRS_Popawiony_RWU_object -IF:\Hams\sondy -IF:\Hams\sondy\soft_pbl\STM32_RTTY-APRS_Popawiony_RWU_object\cmsis_boot -IF:\Hams\sondy\soft_pbl\STM32_RTTY-APRS_Popawiony_RWU_object\stm_lib\inc">
+      <target file="radio.o" lastModified="15ebf90db07">
+         <source file="..\..\..\radio.c" lastModified="15ca04ab6b0"/>
+      </target>
+      <target file="stm32f10x_spi.o" lastModified="15e06434280">
+         <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="15ca04ab6b0"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="15e06433221">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="15ca04ab6b0"/>
+      </target>
+      <target file="stm32f10x_pwr.o" lastModified="15e0643239a">
+         <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="15ca04ab6b0"/>
+      </target>
+      <target file="ublox.o" lastModified="15e064329f2">
+         <source file="..\..\..\ublox.c" lastModified="15ca04ab6b0"/>
+      </target>
+      <target file="misc.o" lastModified="15e0643412a">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="15ca04ab6b0"/>
+      </target>
+      <target file="fun.o" lastModified="15e064320ec">
+         <source file="..\..\..\fun.c" lastModified="15c79a647a4"/>
+      </target>
+      <target file="QAPRSBase.o" lastModified="15ebf90de91">
+         <source file="..\..\..\QAPRSBase.cpp" lastModified="15d0a172947"/>
+      </target>
+      <target file="stm32f10x_flash.o" lastModified="15e06433a0e">
+         <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="15ca04ab6b0"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="15e064324fd">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="15ca04ab6b0"/>
+      </target>
+      <target file="delay.o" lastModified="15e06431b4e">
+         <source file="..\..\..\delay.c" lastModified="15ca04ab6b0"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="15e064322d1">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="15ca04ab6b0"/>
+      </target>
+      <target file="syscalls.o" lastModified="15e0643379f">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="15ca04ab6b0"/>
+      </target>
+      <target file="aprs.o" lastModified="15ebf90d8fb">
+         <source file="..\..\..\aprs.cpp" lastModified="15ebf6af53e"/>
+      </target>
+      <target file="init.o" lastModified="15ebf90d659">
+         <source file="..\..\..\init.c" lastModified="15ca04ab6b0"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="15e06431e35">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="15ca04ab6b0"/>
+      </target>
+      <target file="stm32f10x_adc.o" lastModified="15e064334bb">
+         <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="15ca04ab6b0"/>
+      </target>
+      <target file="f_rtty.o" lastModified="15ebf90dc0c">
+         <source file="..\..\..\f_rtty.c" lastModified="15ca04ab6b0"/>
+      </target>
+      <target file="stm32f10x_dma.o" lastModified="15e06433b27">
+         <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="15ca04ab6b0"/>
+      </target>
+      <target file="startup_stm32f10x_md_vl.o" lastModified="15e064321fa">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md_vl.c" lastModified="15ca04ab6b0"/>
+      </target>
+      <target file="main.o" lastModified="15ebf90d45e">
+         <source file="..\..\..\main.c" lastModified="15ca2c2b22b"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="15e06433603">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="15ca04ab6b0"/>
+      </target>
+   </processor>
+</history>

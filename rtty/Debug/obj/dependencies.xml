@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/IF:\Hams\sondy\soft_pbl\STM32_RTTY-APRS_Popawiony_RWU_object\cmsis /IF:\Hams\sondy\soft_pbl\STM32_RTTY-APRS_Popawiony_RWU_object\stm_lib /IF:\Hams\sondy\soft_pbl /IF:\Hams\sondy\soft_pbl\STM32_RTTY-APRS_Popawiony_RWU_object /IF:\Hams\sondy /IF:\Hams\sondy\soft_pbl\STM32_RTTY-APRS_Popawiony_RWU_object\cmsis_boot /IF:\Hams\sondy\soft_pbl\STM32_RTTY-APRS_Popawiony_RWU_object\stm_lib\inc">
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="15ca04aba98">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="15ca04ab6b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\radio.h" lastModified="15ca04aba98">
+         <include file="..\..\..\config.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_pwr.h" lastModified="15ca04ab6b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md_vl.c" lastModified="15ca04ab6b0">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_adc.h" lastModified="15ca04ab6b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\radio.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\radio.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="15ca04ab6b0">
+      </source>
+      <source file="..\..\..\init.h" lastModified="15ca04ab6b0">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\init.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\init.h"/>
+         <include file="..\..\..\radio.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_dma.h" lastModified="15ca04ab6b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="15ca04ab6b0">
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\QAPRSBase.h" lastModified="15d09f3ab4d">
+         <include file="..\..\..\QAPRSCommon.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="15ca04abe80">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="15ca04ab6b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\aprs.h" lastModified="15ca04abe80">
+         <include file="..\..\..\ublox.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_spi.h" lastModified="15ca04ab6b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_flash.h" lastModified="15ca04ab6b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="15ca04ab6b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\delay.h" lastModified="15ca04ab6b0">
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="15ca04ac650">
+      </source>
+      <source file="..\..\..\delay.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\delay.h"/>
+      </source>
+      <source file="..\..\..\main.c" lastModified="15ca2c2bde3">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\f_rtty.h"/>
+         <include file="..\..\..\init.h"/>
+         <include file="..\..\..\config.h"/>
+         <include file="..\..\..\radio.h"/>
+         <include file="..\..\..\ublox.h"/>
+         <include file="..\..\..\delay.h"/>
+         <include file="..\..\..\aprs.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="15ca04abe80">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+      </source>
+      <source file="..\..\..\QAPRSBase.cpp" lastModified="15d0a172947">
+         <include file="..\..\..\QAPRSBase.h"/>
+         <include file="..\..\..\delay.h"/>
+         <include file="..\..\..\radio.h"/>
+         <include file="..\..\..\init.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="15ca04aba98">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\fun.c" lastModified="15c79a647a4">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\f_rtty.h" lastModified="15ca04aba98">
+         <include file="..\..\..\config.h"/>
+      </source>
+      <source file="..\..\..\f_rtty.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\f_rtty.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\aprs.cpp" lastModified="15ebf6af926">
+         <include file="..\..\..\aprs.h"/>
+         <include file="..\..\..\QAPRSBase.h"/>
+         <include file="..\..\..\ublox.h"/>
+         <include file="..\..\..\config.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="15ca04ab6b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="15ca04ab6b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\ublox.h" lastModified="15ca04aba98">
+      </source>
+      <source file="..\..\..\config.h" lastModified="15ebf90cf75">
+      </source>
+      <source file="..\..\..\ublox.c" lastModified="15ca04aba98">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\ublox.h"/>
+         <include file="..\..\..\delay.h"/>
+         <include file="..\..\..\init.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/IF:\Hams\sondy\soft_pbl\STM32_RTTY-APRS_Popawiony_RWU /IF:\Hams\sondy\soft_pbl /IF:\Hams\sondy\soft_pbl\STM32_RTTY-APRS_Popawiony_RWU\cmsis_boot /IF:\Hams\sondy\soft_pbl\STM32_RTTY-APRS_Popawiony_RWU\stm_lib /IF:\Hams\sondy /IF:\Hams\sondy\soft_pbl\STM32_RTTY-APRS_Popawiony_RWU\cmsis /IF:\Hams\sondy\soft_pbl\STM32_RTTY-APRS_Popawiony_RWU\stm_lib\inc">
+      <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="15ca04ab6b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_pwr.h" lastModified="15ca04ab6b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md_vl.c" lastModified="15ca04ab6b0">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_adc.h" lastModified="15ca04ab6b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\radio.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\radio.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="15ca04ab6b0">
+      </source>
+      <source file="..\..\..\init.h" lastModified="15ca04ab6b0">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\init.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\init.h"/>
+         <include file="..\..\..\radio.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_dma.h" lastModified="15ca04ab6b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="15ca04ab6b0">
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\QAPRSBase.h" lastModified="15d09f3ab4d">
+         <include file="..\..\..\QAPRSCommon.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="15ca04ab6b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_spi.h" lastModified="15ca04ab6b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_flash.h" lastModified="15ca04ab6b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="15ca04ab6b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\delay.h" lastModified="15ca04ab6b0">
+      </source>
+      <source file="..\..\..\delay.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\delay.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+      </source>
+      <source file="..\..\..\fun.h" lastModified="15c79a647c6">
+      </source>
+      <source file="..\..\..\QAPRSBase.cpp" lastModified="15d0a172947">
+         <include file="..\..\..\QAPRSBase.h"/>
+         <include file="..\..\..\delay.h"/>
+         <include file="..\..\..\radio.h"/>
+         <include file="..\..\..\init.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\fun.c" lastModified="15c79a647a4">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\f_rtty.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\f_rtty.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="15ca04ab6b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="15ca04ab6b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="15ca04ab6b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+   </includePath>
+</dependencies>
